@@ -1,1 +1,5 @@
-![Node.js CI](https://github.com/milkywrld/goblin-game/actions/workflows/ci.yml/badge.svg)
+# Webpack5
+![CI](https://github.com/milkyWRLD/env/actions/workflows/web.yml/badge.svg)
+
+[Руководство по настройке Webpack](https://webpack.js.org/guides/)
+[Руководство по настройке GitHub Actions](https://docs.github.com/en/actions/quickstart)
