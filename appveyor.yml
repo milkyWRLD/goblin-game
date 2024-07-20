@@ -1,0 +1,15 @@
+version: 1.0.{build}
+image: Ubuntu
+branches:
+  only:
+    - master
+environment:
+  nodejs_version: '12'
+install:
+  - npm install -g yarn
+  - yarn
+build_script:
+  - yarn build
+artifacts:
+  - path: /dist
+    name: build
